@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us - Salapu Village Resort</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>About Salapu Village Resort</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="rooms.html">Luxury Rooms</a>
+  <a href="amenities.html">Amenities</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="restaurant.html">Restaurant</a>
+  <a href="booking.html">Booking</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <h2>Our Story</h2>
+    <p>Salapu Village Resort was created to bring people closer to nature.
+    Surrounded by lush greenery, peaceful landscapes, and fresh air,
+    our resort offers a unique eco-friendly escape for families,
+    couples, and travelers seeking relaxation.</p>
+  </div>
+
+  <div class="card">
+    <h2>Our Vision</h2>
+    <p>To be the most loved nature resort offering luxury, comfort,
+    and a deep connection to the environment.</p>
+  </div>
+
+  <div class="card">
+    <h2>Our Values</h2>
+    <ul>
+      <li>Eco-friendly hospitality</li>
+      <li>Sustainability</li>
+      <li>Comfort & luxury</li>
+      <li>Village culture & nature preservation</li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  © 2025 Salapu Village Resort
+</footer>
+
+</body>
+</html>
