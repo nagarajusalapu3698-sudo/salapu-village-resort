@@ -1,1 +1,8 @@
-body { background-color: blue; color: yellow; }
+<style>
+body {
+  background-image: url('background.jpg'); /* replace with your filename */
+  background-size: cover;     /* makes it fill the screen */
+  background-position: center; /* keeps it centered */
+  background-repeat: no-repeat;
+}
+</style>
