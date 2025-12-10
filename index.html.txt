@@ -1,52 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Salapu Village Resort - Nature Escape</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salapu Village Resort</title>
+    <style>
+        body {
+            background-color: red;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: darkred;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: darkred;
+        }
+    </style>
 </head>
 <body>
 
 <header>
-  <h1>Salapu Village Resort</h1>
-  <p>Experience Nature, Peace & Luxury</p>
+    <h1>Salapu Village Resort</h1>
 </header>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="rooms.html">Luxury Rooms</a>
-  <a href="amenities.html">Amenities</a>
-  <a href="gallery.html">Gallery</a>
-  <a href="restaurant.html">Restaurant</a>
-  <a href="booking.html">Booking</a>
-  <a href="contact.html">Contact</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#amenities">Amenities</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
 </nav>
 
-<div class="hero">
-  Welcome to Salapu Village Resort
-</div>
+<section id="rooms">
+    <h2>Luxury Rooms</h2>
+    <div class="card">
+        <p>Experience comfort and luxury in our eco-friendly rooms surrounded by nature.</p>
+    </div>
+</section>
 
-<div class="container">
-  <div class="card">
-    <h2>Reconnect With Nature</h2>
-    <p>Stay in luxurious eco-friendly rooms surrounded by green hills,
-    fresh air, birdsong, and a peaceful village atmosphere.</p>
-  </div>
+<section id="amenities">
+    <h2>Amenities</h2>
+    <div class="card">
+        <ul>
+            <li>Swimming Pool</li>
+            <li>Restaurant & Bar</li>
+            <li>Nature Trails</li>
+            <li>Eco-friendly Environment</li>
+        </ul>
+    </div>
+</section>
 
-  <div class="card">
-    <h2>Why Choose Us?</h2>
-    <ul>
-      <li>🌿 Eco-Friendly Luxury Rooms</li>
-      <li>🏊 Beautiful Swimming Pool</li>
-      <li>🥗 Organic Restaurant</li>
-      <li>🌄 Village & Nature Activities</li>
-      <li>📶 Free WiFi</li>
-    </ul>
-  </div>
-</div>
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="card">
+        <p>Images of our resort will go here.</p>
+        <!-- You can replace with actual images -->
+        <img src="https://via.placeholder.com/800x400" alt="Resort Image" style="width:100%; border-radius:10px;">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact & Booking</h2>
+    <div class="card">
+        <form action="https://formspree.io/f/yourformid" method="POST">
+            <label>Name:</label><br>
+            <input type="text" name="name" required><br><br>
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+            <label>Message / Booking Details:</label><br>
+            <textarea name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
 
 <footer>
-  © 2025 Salapu Village Resort — All Rights Reserved
+    <p>&copy; 2025 Salapu Village Resort. All rights reserved.</p>
 </footer>
 
 </body>
