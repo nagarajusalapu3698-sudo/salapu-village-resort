@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant - Salapu Village Resort</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Restaurant & Dining</h1>
+  <p>Fresh • Organic • Delicious</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="rooms.html">Luxury Rooms</a>
+  <a href="amenities.html">Amenities</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="restaurant.html">Restaurant</a>
+  <a href="booking.html">Booking</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <h2>Our Menu</h2>
+    <ul>
+      <li>Local organic dishes</li>
+      <li>Fresh fruit juices</li>
+      <li>Village-style meals</li>
+      <li>Vegetarian options</li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  © 2025 Salapu Village Resort
+</footer>
+
+</body>
+</html>
